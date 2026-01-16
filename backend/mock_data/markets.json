@@ -1,0 +1,262 @@
+[
+  {
+    "condition_id": "0x63a2a9ca8a0e97d4050fa0384b6c41f9",
+    "question": "Will Bitcoin exceed $150,000 by July 2026?",
+    "description": "This market will resolve to 'Yes' if the price of Bitcoin (BTC) exceeds $150,000 USD at any point before July 1, 2026.",
+    "category": "Crypto",
+    "end_date": "2026-06-30T17:15:34.761952Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_0.png",
+    "volume_24h": 148005.2850428092,
+    "volume_total": 4226759.2038799375,
+    "liquidity": 76623.44921562678,
+    "tokens": [
+      {
+        "token_id": "d4c90691fb25d15fdce1f549d488c30e",
+        "outcome": "Yes",
+        "price": 0.4163
+      },
+      {
+        "token_id": "64f8fc061fb701896d2aace15ef0b7dd",
+        "outcome": "No",
+        "price": 0.5837
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-10-19T17:15:34.761952Z"
+  },
+  {
+    "condition_id": "0x792cf21ee674dc40fcfb56e0e4bbfb00",
+    "question": "Will the Fed cut rates in Q1 2026?",
+    "description": "Resolves 'Yes' if the Federal Reserve announces a rate cut during Q1 2026.",
+    "category": "Economics",
+    "end_date": "2026-03-31T17:15:34.762016Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_1.png",
+    "volume_24h": 162196.35227549067,
+    "volume_total": 3231524.289135374,
+    "liquidity": 538360.160167924,
+    "tokens": [
+      {
+        "token_id": "ff3712c05b124662f39ef5204f20a1dc",
+        "outcome": "Yes",
+        "price": 0.6485
+      },
+      {
+        "token_id": "89780b3e72a06805778ef4951fc0e49e",
+        "outcome": "No",
+        "price": 0.3515
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-09-06T17:15:34.762016Z"
+  },
+  {
+    "condition_id": "0x1e85b3e299026cc972b57665a829cd8a",
+    "question": "Will Tesla stock close above $500 by March 2026?",
+    "description": "Resolves 'Yes' if TSLA closes above $500 on any trading day before March 31, 2026.",
+    "category": "Stocks",
+    "end_date": "2026-03-31T17:15:34.762045Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_2.png",
+    "volume_24h": 339128.47227885283,
+    "volume_total": 4906175.781554832,
+    "liquidity": 368573.77377797087,
+    "tokens": [
+      {
+        "token_id": "5bfd46e8615f4c6a3bf3e29eb2de6311",
+        "outcome": "Yes",
+        "price": 0.3569
+      },
+      {
+        "token_id": "93a5c652d78b96ee124f95bc6c62d565",
+        "outcome": "No",
+        "price": 0.6431
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-08-25T17:15:34.762045Z"
+  },
+  {
+    "condition_id": "0xc94374c018f0c37c9fa13acfe2d5db5c",
+    "question": "Super Bowl LX: Will the Chiefs win?",
+    "description": "Resolves 'Yes' if the Kansas City Chiefs win Super Bowl LX.",
+    "category": "Sports",
+    "end_date": "2026-02-10T17:15:34.762065Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_3.png",
+    "volume_24h": 251429.271903365,
+    "volume_total": 6543723.81558084,
+    "liquidity": 925201.0642927039,
+    "tokens": [
+      {
+        "token_id": "f846410c1c993da9b5e8da310f2a2d8e",
+        "outcome": "Yes",
+        "price": 0.3286
+      },
+      {
+        "token_id": "07960400828edf7df739a566bbeb66e2",
+        "outcome": "No",
+        "price": 0.6714
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-09-28T17:15:34.762065Z"
+  },
+  {
+    "condition_id": "0x723faf140fde6742bf54f5d120250456",
+    "question": "Will GPT-5 be released before July 2026?",
+    "description": "Resolves 'Yes' if OpenAI publicly releases GPT-5 before July 1, 2026.",
+    "category": "Tech",
+    "end_date": "2026-06-30T17:15:34.762083Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_4.png",
+    "volume_24h": 122900.36991805505,
+    "volume_total": 3157129.804309178,
+    "liquidity": 709163.1634437228,
+    "tokens": [
+      {
+        "token_id": "873da3aae547f8e5bbaf072823612f13",
+        "outcome": "Yes",
+        "price": 0.5114
+      },
+      {
+        "token_id": "fab6c1fa9139acae5b14220c1e44e793",
+        "outcome": "No",
+        "price": 0.4886
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-07-20T17:15:34.762083Z"
+  },
+  {
+    "condition_id": "0xca193dfb5b0c1f3000dd7aa8d393583c",
+    "question": "Will there be a US government shutdown in 2026?",
+    "description": "Resolves 'Yes' if the US federal government experiences a shutdown of any duration in 2026.",
+    "category": "Politics",
+    "end_date": "2026-12-31T17:15:34.762099Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_5.png",
+    "volume_24h": 484207.6177310696,
+    "volume_total": 8743043.295435399,
+    "liquidity": 813849.5804970172,
+    "tokens": [
+      {
+        "token_id": "75e2b32d8bdc2701131cfc0be0a661b7",
+        "outcome": "Yes",
+        "price": 0.659
+      },
+      {
+        "token_id": "dd914469c2f1597cd07dcd514d729911",
+        "outcome": "No",
+        "price": 0.341
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-11-08T17:15:34.762099Z"
+  },
+  {
+    "condition_id": "0xfc5d79d3aa4d2efcee0c32d4065ba5fa",
+    "question": "Will Ethereum flip Bitcoin in market cap by 2027?",
+    "description": "Resolves 'Yes' if Ethereum's market cap exceeds Bitcoin's at any point before January 1, 2027.",
+    "category": "Crypto",
+    "end_date": "2026-12-31T17:15:34.762116Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_6.png",
+    "volume_24h": 208232.04581618807,
+    "volume_total": 2697409.3808476394,
+    "liquidity": 396021.96084290795,
+    "tokens": [
+      {
+        "token_id": "562d1f7e93a95f5a5902079eaecfa2b3",
+        "outcome": "Yes",
+        "price": 0.1994
+      },
+      {
+        "token_id": "7567c45a9bc1187d2c5e97979ce7d015",
+        "outcome": "No",
+        "price": 0.8006
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-07-21T17:15:34.762116Z"
+  },
+  {
+    "condition_id": "0x70a2fd412bbc6e5455b7b29483fc3c6f",
+    "question": "Academy Awards 2026: Will an AI-generated film win Best Picture?",
+    "description": "Resolves 'Yes' if a film with significant AI-generated content wins Best Picture at the 2026 Academy Awards.",
+    "category": "Entertainment",
+    "end_date": "2026-03-12T17:15:34.762132Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_7.png",
+    "volume_24h": 141933.6354937402,
+    "volume_total": 8708735.88168586,
+    "liquidity": 718884.2787548382,
+    "tokens": [
+      {
+        "token_id": "fff68d670597ed8366549e532076cc66",
+        "outcome": "Yes",
+        "price": 0.1028
+      },
+      {
+        "token_id": "e63162316155ecd4dc093c41dd990313",
+        "outcome": "No",
+        "price": 0.8972
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-09-27T17:15:34.762132Z"
+  },
+  {
+    "condition_id": "0x41e16a7ddce7e584eb799741735b128b",
+    "question": "Will Apple release AR glasses in 2026?",
+    "description": "Resolves 'Yes' if Apple releases consumer AR glasses (not Vision Pro) in 2026.",
+    "category": "Tech",
+    "end_date": "2026-12-31T17:15:34.762148Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_8.png",
+    "volume_24h": 411965.70377227553,
+    "volume_total": 6404447.542125428,
+    "liquidity": 770611.5271311511,
+    "tokens": [
+      {
+        "token_id": "360fb651c68ae1618352f6048447b69b",
+        "outcome": "Yes",
+        "price": 0.3292
+      },
+      {
+        "token_id": "2690031065892b8031d97d4ebfcdf1a3",
+        "outcome": "No",
+        "price": 0.6708
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-11-18T17:15:34.762148Z"
+  },
+  {
+    "condition_id": "0x1fc84b047d8620803cdfa64e4faac916",
+    "question": "NBA Finals 2026: Will the Celtics repeat?",
+    "description": "Resolves 'Yes' if the Boston Celtics win the 2026 NBA Finals.",
+    "category": "Sports",
+    "end_date": "2026-06-15T17:15:34.762164Z",
+    "image_url": "https://polymarket-upload.s3.amazonaws.com/market_9.png",
+    "volume_24h": 122571.40351233522,
+    "volume_total": 6362818.225799057,
+    "liquidity": 824087.20347603,
+    "tokens": [
+      {
+        "token_id": "506fa29ffac8f15ce89a3a666495e72f",
+        "outcome": "Yes",
+        "price": 0.253
+      },
+      {
+        "token_id": "8f3faecbbe11961489dbd113e25dee40",
+        "outcome": "No",
+        "price": 0.747
+      }
+    ],
+    "active": true,
+    "closed": false,
+    "created_at": "2025-10-11T17:15:34.762164Z"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "sig_4b321db636117296b328c8cf540e572c",
+    "type": "NEW_WALLET",
+    "market_id": "0xfc5d79d3aa4d2efcee0c32d4065ba5fa",
+    "market_question": "Will Ethereum flip Bitcoin in market cap by 2027?",
+    "severity": "LOW",
+    "timestamp": "2026-01-16T14:15:34.773122Z",
+    "summary": "Significant trade from new wallet",
+    "metadata": {
+      "detected_at": "2026-01-16T14:15:34.773122"
+    }
+  },
+  {
+    "id": "sig_f8051a1d705fb8ede99e4dbc64e3c4ca",
+    "type": "PRICE_DIVERGENCE",
+    "market_id": "0xfc5d79d3aa4d2efcee0c32d4065ba5fa",
+    "market_question": "Will Ethereum flip Bitcoin in market cap by 2027?",
+    "severity": "HIGH",
+    "timestamp": "2026-01-16T12:15:34.773031Z",
+    "summary": "Price moved 12.7% DOWN without volume confirmation",
+    "metadata": {
+      "price_change_pct": 12.66,
+      "volume_change_pct": -8.34,
+      "direction": "DOWN"
+    }
+  },
+  {
+    "id": "sig_fa29e87ca720fc725c6f9d2b65c48a10",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0x1fc84b047d8620803cdfa64e4faac916",
+    "market_question": "NBA Finals 2026: Will the Celtics repeat?",
+    "severity": "MEDIUM",
+    "timestamp": "2026-01-16T06:15:34.772989Z",
+    "summary": "$455,316 BUY position on No",
+    "metadata": {
+      "position_size": 455315.91,
+      "side": "BUY",
+      "outcome": "No"
+    }
+  },
+  {
+    "id": "sig_5baf573fc54b891bfa828c786ba2cfa3",
+    "type": "VOLUME_SPIKE",
+    "market_id": "0x63a2a9ca8a0e97d4050fa0384b6c41f9",
+    "market_question": "Will Bitcoin exceed $150,000 by July 2026?",
+    "severity": "LOW",
+    "timestamp": "2026-01-16T05:15:34.772942Z",
+    "summary": "Trading volume 3.3x above 24h average",
+    "metadata": {
+      "current_volume": 160257.09,
+      "baseline_volume": 43019.65,
+      "multiplier": 3.3
+    }
+  },
+  {
+    "id": "sig_83b6ffdee31c162881e6e36b47ff5aa7",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0x41e16a7ddce7e584eb799741735b128b",
+    "market_question": "Will Apple release AR glasses in 2026?",
+    "severity": "HIGH",
+    "timestamp": "2026-01-16T01:15:34.773069Z",
+    "summary": "$427,948 SELL position on Yes",
+    "metadata": {
+      "position_size": 427948.18,
+      "side": "SELL",
+      "outcome": "Yes"
+    }
+  },
+  {
+    "id": "sig_7e27508971c374a5dcf1fd9e96a56fe3",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0x1e85b3e299026cc972b57665a829cd8a",
+    "market_question": "Will Tesla stock close above $500 by March 2026?",
+    "severity": "MEDIUM",
+    "timestamp": "2026-01-15T22:15:34.773136Z",
+    "summary": "$399,959 BUY position on No",
+    "metadata": {
+      "position_size": 399958.5,
+      "side": "BUY",
+      "outcome": "No"
+    }
+  },
+  {
+    "id": "sig_7c3bd4ad1b884cb23381bfc30ac7fbdd",
+    "type": "NEW_WALLET",
+    "market_id": "0x1e85b3e299026cc972b57665a829cd8a",
+    "market_question": "Will Tesla stock close above $500 by March 2026?",
+    "severity": "LOW",
+    "timestamp": "2026-01-15T20:15:34.772972Z",
+    "summary": "Significant trade from new wallet",
+    "metadata": {
+      "detected_at": "2026-01-15T20:15:34.772972"
+    }
+  },
+  {
+    "id": "sig_8a34465683e18d9dc9d94089ea660577",
+    "type": "ORDERBOOK_IMBALANCE",
+    "market_id": "0x792cf21ee674dc40fcfb56e0e4bbfb00",
+    "market_question": "Will the Fed cut rates in Q1 2026?",
+    "severity": "MEDIUM",
+    "timestamp": "2026-01-15T18:15:34.773016Z",
+    "summary": "Bid/ask ratio shifted significantly",
+    "metadata": {
+      "detected_at": "2026-01-15T18:15:34.773016"
+    }
+  },
+  {
+    "id": "sig_91ec17b765cb8b5458eb817e7575626b",
+    "type": "PRICE_DIVERGENCE",
+    "market_id": "0x63a2a9ca8a0e97d4050fa0384b6c41f9",
+    "market_question": "Will Bitcoin exceed $150,000 by July 2026?",
+    "severity": "LOW",
+    "timestamp": "2026-01-15T15:15:34.773051Z",
+    "summary": "Price moved 14.7% DOWN without volume confirmation",
+    "metadata": {
+      "price_change_pct": 14.72,
+      "volume_change_pct": -1.11,
+      "direction": "DOWN"
+    }
+  },
+  {
+    "id": "sig_436f70a70d3a80a9c4f1de7abb5a85ba",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0xc94374c018f0c37c9fa13acfe2d5db5c",
+    "market_question": "Super Bowl LX: Will the Chiefs win?",
+    "severity": "LOW",
+    "timestamp": "2026-01-15T07:15:34.773105Z",
+    "summary": "$142,847 BUY position on No",
+    "metadata": {
+      "position_size": 142846.94,
+      "side": "BUY",
+      "outcome": "No"
+    }
+  },
+  {
+    "id": "sig_9299a969bc92f12a27d46a6149424db3",
+    "type": "NEW_WALLET",
+    "market_id": "0xca193dfb5b0c1f3000dd7aa8d393583c",
+    "market_question": "Will there be a US government shutdown in 2026?",
+    "severity": "HIGH",
+    "timestamp": "2026-01-15T07:15:34.772885Z",
+    "summary": "Significant trade from new wallet",
+    "metadata": {
+      "detected_at": "2026-01-15T07:15:34.772885"
+    }
+  },
+  {
+    "id": "sig_3ccdcfc0b49b0bad9b526a1b6beca5ff",
+    "type": "VOLUME_SPIKE",
+    "market_id": "0x1fc84b047d8620803cdfa64e4faac916",
+    "market_question": "NBA Finals 2026: Will the Celtics repeat?",
+    "severity": "HIGH",
+    "timestamp": "2026-01-15T04:15:34.772915Z",
+    "summary": "Trading volume 4.8x above 24h average",
+    "metadata": {
+      "current_volume": 118437.32,
+      "baseline_volume": 15534.18,
+      "multiplier": 4.84
+    }
+  },
+  {
+    "id": "sig_f39059dedb411b2bbc990b4d53154f90",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0xc94374c018f0c37c9fa13acfe2d5db5c",
+    "market_question": "Super Bowl LX: Will the Chiefs win?",
+    "severity": "CRITICAL",
+    "timestamp": "2026-01-15T02:15:34.773086Z",
+    "summary": "$444,264 BUY position on Yes",
+    "metadata": {
+      "position_size": 444264.47,
+      "side": "BUY",
+      "outcome": "Yes"
+    }
+  },
+  {
+    "id": "sig_b33f02c8afda583bfff913f98894d181",
+    "type": "VOLUME_SPIKE",
+    "market_id": "0xca193dfb5b0c1f3000dd7aa8d393583c",
+    "market_question": "Will there be a US government shutdown in 2026?",
+    "severity": "LOW",
+    "timestamp": "2026-01-14T23:15:34.773152Z",
+    "summary": "Trading volume 7.7x above 24h average",
+    "metadata": {
+      "current_volume": 191148.42,
+      "baseline_volume": 15860.12,
+      "multiplier": 7.66
+    }
+  },
+  {
+    "id": "sig_856c5145a93bedc1faec447a44768210",
+    "type": "WHALE_ACTIVITY",
+    "market_id": "0x70a2fd412bbc6e5455b7b29483fc3c6f",
+    "market_question": "Academy Awards 2026: Will an AI-generated film win Best Picture?",
+    "severity": "CRITICAL",
+    "timestamp": "2026-01-14T17:15:34.772834Z",
+    "summary": "$283,234 SELL position on Yes",
+    "metadata": {
+      "position_size": 283234.05,
+      "side": "SELL",
+      "outcome": "Yes"
+    }
+  }
+]
