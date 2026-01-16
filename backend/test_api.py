@@ -22,6 +22,18 @@ async def test_gamma_api():
     print("="*70)
     
     async with PolymarketClient() as client:
+        # First, let's see the raw API response structure
+        print("\n🔍 Examining raw API response structure...")
+        response = await client.client.get(
+            f"{client.settings.polymarket_gamma_url}/markets",
+            params={"limit": 1, "active": "true"}
+        )
+        raw_data = response.json()
+        
+        if raw_data:
+            first_market = raw_data[0] if isinstance(raw_data, list) else raw_data
+            print(f"   Available fields: {list(first_market.keys())}")
+        
         # Test 1: Fetch top markets by volume
         print("\n📊 Fetching top 5 markets by volume...")
         markets = await client.get_markets(limit=5, order="volume")
@@ -33,12 +45,15 @@ async def test_gamma_api():
         print(f"✅ Found {len(markets)} markets\n")
         
         for i, market in enumerate(markets, 1):
-            print(f"  {i}. {market.question[:60]}...")
-            print(f"     ID: {market.id[:20]}...")
-            print(f"     Volume: ${float(market.volume):,.2f}")
+            question = market.display_question
+            print(f"  {i}. {question[:60]}{'...' if len(question) > 60 else ''}")
+            print(f"     ID: {market.market_id[:30]}...")
+            print(f"     Volume: ${float(market.total_volume):,.2f}")
             print(f"     Outcomes: {market.outcomes}")
             if market.outcome_prices:
                 print(f"     Prices: {market.outcome_prices}")
+            if market.clob_token_ids:
+                print(f"     Token IDs: {market.clob_token_ids}")
             print()
         
         # Test 2: Search functionality
@@ -47,7 +62,7 @@ async def test_gamma_api():
         print(f"✅ Found {len(btc_markets)} Bitcoin-related markets\n")
         
         for market in btc_markets:
-            print(f"  - {market.question[:50]}...")
+            print(f"  - {market.display_question[:50]}...")
         
         return markets
 
@@ -137,10 +152,11 @@ async def test_data_for_signals():
         print("-" * 80)
         
         for i, market in enumerate(markets, 1):
-            vol = float(market.volume)
+            vol = float(market.total_volume)
             liq = float(market.liquidity) if market.liquidity else 0
-            question = market.question[:45] + "..." if len(market.question) > 45 else market.question
-            print(f"{i:<3} ${vol:>14,.0f} ${liq:>11,.0f} {question}")
+            question = market.display_question
+            question_display = question[:45] + "..." if len(question) > 45 else question
+            print(f"{i:<3} ${vol:>14,.0f} ${liq:>11,.0f} {question_display}")
         
         # Save sample data for offline analysis
         print("\n💾 Saving sample data to sample_markets.json...")
@@ -150,12 +166,14 @@ async def test_data_for_signals():
             sample_data.append({
                 "id": market.id,
                 "condition_id": market.condition_id,
-                "question": market.question,
+                "question": market.display_question,
                 "slug": market.slug,
                 "outcomes": market.outcomes,
                 "outcome_prices": market.outcome_prices,
-                "volume": market.volume,
+                "volume": market.total_volume,
                 "liquidity": market.liquidity,
+                "clob_token_ids": market.clob_token_ids,
+                "tokens": market.tokens,
             })
         
         with open("sample_markets.json", "w") as f:

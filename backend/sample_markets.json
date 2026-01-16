@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1195419",
+    "condition_id": "0xfde22b256059fe47917443dee9c2f4e5a87f4e3ae49938ce82c3855a764beb41",
+    "question": "Will the announcers say \"No Good\" during the National College Football Championship Game?",
+    "slug": "will-the-announcers-say-no-good-during-the-national-college-football-championship-game",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.55",
+      "0.45"
+    ],
+    "volume": "99.99307499999999",
+    "liquidity": "789.51",
+    "clob_token_ids": [
+      "49576218915665745081124305661421170876218038557797218368618640958115120668191",
+      "96857582713198426633711990480568428009300141919698076376445768785132472487902"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "1089847",
+    "condition_id": "0xcbca4926398df4622033099a661c591c5d5b62f3ac11e1dc871c2a7592c74e32",
+    "question": "Ethereum flipped in 2026?",
+    "slug": "eth-flipped-in-2026",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.175",
+      "0.825"
+    ],
+    "volume": "48.998775",
+    "liquidity": "19640.7053",
+    "clob_token_ids": [
+      "5696256002830425095773350415970497521807751621606677935878961079946544685641",
+      "16908800275040414334648923932553225820855394547396165657067073625824818623157"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "580095",
+    "condition_id": "0x091010f5fa0aed8218a8f2ef38ca6f75a04b86207e9d9a3464c76acedae5ff71",
+    "question": "Will LT Overton be the first pick of the 2026 NFL Draft?",
+    "slug": "will-lt-overton-be-the-first-pick-of-the-2026-nfl-draft",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.0015",
+      "0.9985"
+    ],
+    "volume": "6",
+    "liquidity": "2323.64633",
+    "clob_token_ids": [
+      "30914129377008299105825712463210268035742945099105633197958126446720250780230",
+      "18543401226963683485470982595403517845090555185510389603436997425977517302982"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "1116679",
+    "condition_id": "0x8febfe00f8155a3ecfc4af5da7b4283f14b7f6b726217d2c600dcc326d8f50ed",
+    "question": "Will Ole Gunnar Solskj\u00e6r be appointed as manager of Manchester United?",
+    "slug": "will-ole-gunnar-solskjr-be-appointed-as-manager-of-manchester-united",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.0375",
+      "0.9625"
+    ],
+    "volume": "2010.863332",
+    "liquidity": "8713.08056",
+    "clob_token_ids": [
+      "63607544277276059628349594097078346417617320405971275431067564976557726894131",
+      "37724341017618365206335698229989838922098382461825809222252719943190212460534"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "1199781",
+    "condition_id": "0x285908f7d6ef04ca37e4650ebb8ba9b6d323bbe5ab3e33d8162a80906a552e5f",
+    "question": "Will the US strike Iran next?",
+    "slug": "will-the-us-strike-iran-next-433",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.12",
+      "0.88"
+    ],
+    "volume": "999.186825",
+    "liquidity": "8905.002",
+    "clob_token_ids": [
+      "100698025363657020790903234023020875322370654614111181942779685024172456779656",
+      "112607423994483360803362844687320596074963568534837832901335532750746817516097"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "564212",
+    "condition_id": "0xc425460121141efda48994bdd8991fddb7c145f31591b1b114cb6a7b029e4404",
+    "question": "Will the Houston Rockets win the NBA Western Conference Finals?",
+    "slug": "will-the-houston-rockets-win-the-nba-western-conference-finals",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.1",
+      "0.9"
+    ],
+    "volume": "9991.667559",
+    "liquidity": "70224.0342",
+    "clob_token_ids": [
+      "22226004461035625319919657267129959466466585725269185478458570055870755140202",
+      "98201496215280693602958996033097514949070099304644235499058064345773729243771"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "528788",
+    "condition_id": "0x3061dcc85903c2700dffd529e0fbd9b0023c3b481324cd0276d5399f9dace5dc",
+    "question": "Rojas guilty in Texas illegal abortion case?",
+    "slug": "rojas-guilty-in-texas-illegal-abortion-case",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.085",
+      "0.915"
+    ],
+    "volume": "400.132726",
+    "liquidity": "2292.8977",
+    "clob_token_ids": [
+      "70584222105672215743914509614198676449757016746323593572033490884974443841053",
+      "78453865954536643710017153843673830010373935401063241006664722462398084283536"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "948956",
+    "condition_id": "0x337ed4a919995ef9ba9d705b319055633a5dfdcb3ab97cf610009a7d11a9ade4",
+    "question": "Bitcoin all time high by June 30, 2026?",
+    "slug": "bitcoin-all-time-high-by-june-30-2026",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.29",
+      "0.71"
+    ],
+    "volume": "271.45865",
+    "liquidity": "13571.9847",
+    "clob_token_ids": [
+      "110292533535693399659565556058999029770323124971784271457706580213101684204758",
+      "32241728622645501800772566218919160724271903710022620782123353334972902733335"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "909466",
+    "condition_id": "0xfacf82cdf9eeea5d4c0a450acf939bbeab9fe307b5e53191a59171d12072adbf",
+    "question": "SpaceX IPO closing market cap above $1T?",
+    "slug": "spacex-ipo-closing-market-cap-above-1t-528",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.835",
+      "0.165"
+    ],
+    "volume": "12390.108263000004",
+    "liquidity": "10278.3255",
+    "clob_token_ids": [
+      "86511993606190995539996371064900122466738869186406355817612580895605974257272",
+      "23694610667151509112659549581378238713172895332250382231063279928029346967945"
+    ],
+    "tokens": null
+  },
+  {
+    "id": "1199141",
+    "condition_id": "0x9ec72c93d974709372ff5a5c7664f6eacb768087b883a2e1ebdb988722bfdbbb",
+    "question": "Will the price of Ethereum be above $3,000 on January 23?",
+    "slug": "ethereum-above-3000-on-january-23",
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      "0.935",
+      "0.065"
+    ],
+    "volume": "998",
+    "liquidity": "13417.6573",
+    "clob_token_ids": [
+      "15294182226117605333810148048577992467824499101996890179266344608153204697614",
+      "106817043971714184073484279405563966329145817211669460552495518373660844246075"
+    ],
+    "tokens": null
+  }
+]
